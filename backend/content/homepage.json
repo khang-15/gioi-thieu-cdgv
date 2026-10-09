@@ -1,0 +1,338 @@
+{
+  "brand": {
+    "eyebrow": "Cộng đoàn Dự tu",
+    "name": "Gò Vấp",
+    "logo": "/media/e24ca5c0-679e-400e-beb1-e4ad2502e61f.png"
+  },
+  "navigation": [
+    {
+      "label": "Trang chủ",
+      "href": "#home"
+    },
+    {
+      "label": "Giới thiệu",
+      "href": "#values"
+    },
+    {
+      "label": "Tin tức",
+      "href": "#news"
+    },
+    {
+      "label": "Sự kiện",
+      "href": "#events"
+    },
+    {
+      "label": "Các tổ",
+      "href": "#groups"
+    },
+    {
+      "label": "Thư viện",
+      "href": "#gallery"
+    },
+    {
+      "label": "Liên hệ",
+      "href": "#contact"
+    }
+  ],
+  "hero": {
+    "eyebrow": "CỘNG ĐOÀN DỰ TU",
+    "title": "Gò Vấp",
+    "quote": "Cùng nhau bước đi\ntrong hành trình ơn gọi,\ndưới ánh sáng Tin Mừng.",
+    "reference": "(Lc 24, 13–35)",
+    "primaryLabel": "Tìm hiểu Cộng đoàn",
+    "videoLabel": "Xem video giới thiệu",
+    "videoUrl": "/media/320e7110-0630-499c-8a32-c67786082f79.mp4",
+    "image": "/media/f25f9f4e-6f69-46fe-9528-23e9c0de2dde.jpg",
+    "imageAlt": "Ảnh toàn cảnh cộng đoàn",
+    "steps": [
+      "Thiêng liêng",
+      "Nhân bản",
+      "Tri thức",
+      "Mục vụ"
+    ]
+  },
+  "values": [
+    {
+      "id": "spiritual",
+      "icon": "prayer",
+      "title": "Thiêng liêng",
+      "description": "Nuôi dưỡng đời sống cầu nguyện và kết hiệp với Chúa."
+    },
+    {
+      "id": "human",
+      "icon": "community",
+      "title": "Nhân bản",
+      "description": "Rèn luyện nhân cách và sống tình huynh đệ."
+    },
+    {
+      "id": "intellectual",
+      "icon": "book",
+      "title": "Tri thức",
+      "description": "Học hỏi, suy tư và mở rộng hiểu biết."
+    },
+    {
+      "id": "pastoral",
+      "icon": "heart",
+      "title": "Mục vụ",
+      "description": "Dấn thân phục vụ và chia sẻ niềm vui Tin Mừng."
+    }
+  ],
+  "labels": {
+    "news": "Tin tức nổi bật",
+    "events": "Sự kiện sắp tới",
+    "all": "Xem tất cả",
+    "imagePlaceholder": "Hình ảnh đang được cập nhật",
+    "search": "Tìm kiếm",
+    "searchPlaceholder": "Tìm tin tức, sự kiện…",
+    "searchEmpty": "Không tìm thấy nội dung phù hợp.",
+    "close": "Đóng",
+    "loading": "Đang tải nội dung…",
+    "error": "Chưa kết nối được với máy chủ. Vui lòng thử lại.",
+    "retry": "Thử lại",
+    "videoEmpty": "Video giới thiệu đang được cập nhật.",
+    "scroll": "Cuộn xuống khám phá",
+    "menu": "Mở menu",
+    "empty": "Nội dung đang được cập nhật."
+  },
+  "news": [
+    {
+      "id": "news-0",
+      "category": "SINH HOẠT",
+      "date": "2024-10-15",
+      "title": "Thánh lễ đầu tháng của Cộng đoàn",
+      "summary": "Cộng đoàn cùng tạ ơn Chúa trong Thánh lễ đầu tháng với tâm tình hiệp dâng.",
+      "body": "Cộng đoàn cùng tạ ơn Chúa trong Thánh lễ đầu tháng với tâm tình hiệp dâng.\n\nNội dung mẫu theo bản thiết kế. Vui lòng cập nhật thông tin chính thức trước khi công bố.",
+      "image": "/media/aba3fd94-081e-4701-bbdc-1b2095949c59.jpg",
+      "imageAlt": "Thánh lễ đầu tháng của Cộng đoàn"
+    },
+    {
+      "id": "news-1",
+      "category": "HOẠT ĐỘNG",
+      "date": "2024-10-10",
+      "title": "Ngày tĩnh tâm tháng 10",
+      "summary": "Một ngày thinh lặng để trở về với Chúa và nhìn lại hành trình ơn gọi.",
+      "body": "Một ngày thinh lặng để trở về với Chúa và nhìn lại hành trình ơn gọi.\n\nNội dung mẫu theo bản thiết kế. Vui lòng cập nhật thông tin chính thức trước khi công bố.",
+      "image": "/media/2719c519-fc26-452c-b28d-4b32a170967b.jpg",
+      "imageAlt": "Ngày tĩnh tâm tháng 10"
+    },
+    {
+      "id": "news-2",
+      "category": "BÁC ÁI",
+      "date": "2024-10-05",
+      "title": "Chuyến bác ái tại Giáo xứ",
+      "summary": "Mang niềm vui và tình yêu của Chúa đến với những người anh chị em.",
+      "body": "Mang niềm vui và tình yêu của Chúa đến với những người anh chị em.\n\nNội dung mẫu theo bản thiết kế. Vui lòng cập nhật thông tin chính thức trước khi công bố.",
+      "image": "/media/b0ec69de-7b18-483d-8a58-fdf2c0e55667.jpg",
+      "imageAlt": "Chuyến bác ái tại Giáo xứ"
+    }
+  ],
+  "events": [
+    {
+      "id": "event-0",
+      "title": "Thánh lễ đầu tháng",
+      "date": "2024-10-20",
+      "time": "07:00 – 08:00",
+      "location": "Nhà nguyện Cộng đoàn",
+      "description": "Thông tin mẫu theo thiết kế, cần xác nhận lịch tổ chức thực tế."
+    },
+    {
+      "id": "event-1",
+      "title": "Ngày tĩnh tâm",
+      "date": "2024-11-01",
+      "time": "08:00 – 16:00",
+      "location": "Nhà sinh hoạt",
+      "description": "Thông tin mẫu theo thiết kế, cần xác nhận lịch tổ chức thực tế."
+    },
+    {
+      "id": "event-2",
+      "title": "Gặp gỡ ơn gọi",
+      "date": "2024-11-15",
+      "time": "19:00 – 21:00",
+      "location": "Giáo phận Xuân Lộc",
+      "description": "Thông tin mẫu theo thiết kế, cần xác nhận lịch tổ chức thực tế."
+    }
+  ],
+  "journey": {
+    "eyebrow": "HÀNH TRÌNH ƠN GỌI",
+    "title": "Một cuộc gặp gỡ\nđổi thay cuộc đời",
+    "quote": "Không phải anh em đã chọn Thầy,\nnhưng chính Thầy đã chọn anh em",
+    "reference": "(Ga 15, 16)",
+    "button": "Tìm hiểu hành trình ơn gọi",
+    "description": "Hành trình ơn gọi của cộng đoàn đang được cập nhật.",
+    "image": null,
+    "imageAlt": "Ảnh hành trình ơn gọi"
+  },
+  "groups": {
+    "title": "Các tổ",
+    "eyebrow": "HIỆP THÔNG & HUYNH ĐỆ",
+    "description": "Danh sách các tổ năm 2026–2027 của Cộng đoàn Dự tu Gò Vấp.",
+    "labels": {
+      "details": "Thành viên trong tổ",
+      "pending": "Chờ cập nhật",
+      "mission": "Nhiệm vụ và hoạt động",
+      "schedule": "Lịch sinh hoạt",
+      "leader": "Tổ trưởng",
+      "about": "Giới thiệu",
+      "empty": "Chưa cập nhật",
+      "image": "Ảnh ban, nhóm",
+      "back": "Các tổ",
+      "deputy": "Tổ phó",
+      "members": "Thành viên",
+      "number": "TỔ"
+    },
+    "items": [
+      {
+        "id": "group-0",
+        "number": 1,
+        "title": "Tổ 1",
+        "leader": "Phêrô Maria Nguyễn Ngọc Đoàn",
+        "deputy": "Giuse Hoàng Chí Thiện",
+        "members": [
+          "Giuse Phạm Đình Bảo",
+          "Giuse Huỳnh Nguyên Khánh Duy",
+          "Đaminh Đinh Ngọc Gia Huy",
+          "Đaminh Trần Nguyễn Minh Phúc",
+          "Phêrô Lê Nhật Trường",
+          "Phêrô Nguyễn Anh Vũ",
+          "Giuse Lê Tiến Đạt",
+          "Antôn Trần Minh Đức",
+          "Martin Trần Ngọc Hiệp",
+          "Gioan B Phạm Viết Hoàng",
+          "Vinhsơn Trần Lê Hoài Phong",
+          "Giuse Hoàng Chí Thiện",
+          "Phêrô Maria Nguyễn Ngọc Đoàn",
+          "Phanxico Nguyễn Minh Hiếu",
+          "Giuse Vũ Đức Quang",
+          "Phêrô Trần Văn Quang Bách Long",
+          "Đaminh Nguyễn Trường Hải Đăng"
+        ],
+        "image": null
+      },
+      {
+        "id": "group-1",
+        "number": 2,
+        "title": "Tổ 2",
+        "leader": "Vincente Nguyễn Minh Phương",
+        "deputy": "Đaminh Phạm Nguyên Khánh",
+        "members": [
+          "Giuse Vũ Đức Anh",
+          "Giuse Nguyễn Quốc Doanh",
+          "Martin Mai Quốc Dũng",
+          "Giuse Phạm Minh Dương",
+          "Phaolô Phạm Quốc Tuấn",
+          "Giuse Hồ Vũ Công Minh",
+          "Phanxicô Xaviê Đỗ Mạnh Duy",
+          "Đaminh Phạm Nguyên Khánh",
+          "Phêrô Phạm Vũ Ngọc Lâm",
+          "Vinh Sơn Trần Hoàng Long",
+          "Augusstino Bùi Minh Nhật",
+          "GIUSE Ngô Minh Huy",
+          "Đaminh Savio Trần Hà Đức Huỳnh",
+          "Martino Nguyễn Nhật Khôi",
+          "Vincente Nguyễn Minh Phương",
+          "Phêrô Nguyễn Nhật Khang"
+        ],
+        "image": null
+      },
+      {
+        "id": "group-2",
+        "number": 3,
+        "title": "Tổ 3",
+        "leader": "Phaolo Trần Hữu Tín",
+        "deputy": "Martinô Đỗ Minh Quang",
+        "members": [
+          "Bênêđictô Nguyễn Nhật Minh",
+          "Gioan Nguyễn Hoàng Bảo Nam",
+          "Giuse Trần Hữu Thắng",
+          "Giuse Đỗ Hoàng Khánh Thư",
+          "Giuse Nguyễn Hiếu Thuận",
+          "Giuse Trần Quốc Toàn",
+          "Gioan B Nguyễn Minh Mẫn",
+          "Giuse Trần Nguyên Hoài Nam",
+          "Giuse Trần Thanh Nhân",
+          "Martinô Đỗ Minh Quang",
+          "Giuse Nguyễn Đức Tài",
+          "Fx Vũ Nhật Tường",
+          "Giuse Nguyễn Hoàng Quang",
+          "Phaolo Trần Hữu Tín",
+          "Gioan.B Hoàng Bảo Tín",
+          "Phêrô Nguyễn Quang Danh"
+        ],
+        "image": null
+      },
+      {
+        "id": "group-3",
+        "number": 4,
+        "title": "Tổ 4",
+        "leader": "Giuse Đoàn Hồng Tân",
+        "deputy": "Gioakim Nguyễn Đức Tiến",
+        "members": [
+          "Giuse Phạm Vũ Minh Đức",
+          "Piô X Vũ Ngọc Gia Huy",
+          "Phêrô Hà Gia Kiệt",
+          "Giuse Nguyễn Nhật Minh",
+          "Giuse Nguyễn Hoàng Hiếu Thiên",
+          "Martin Nguyễn Phan Văn Thọ",
+          "Clemente Trần Minh Hoàng",
+          "Giuse Lê Minh Nghĩa",
+          "Phanxicô Xaviê Ngô Xuân Phúc",
+          "Giuse Maria Vũ Quốc Toàn",
+          "Martinô Phạm Quốc Trí",
+          "Phêrô Lê Minh Hoang",
+          "Laurenso Trần Thái Thanh Phúc",
+          "Giuse Phạm Kim Ngọc",
+          "Gioakim Nguyễn Đức Tiến",
+          "Đaminh Vũ Minh Thái (Kiệt Gì Cũng Bắt)",
+          "Giuse Đoàn Hồng Tân"
+        ],
+        "image": null
+      }
+    ],
+    "layout": "teams",
+    "academicYear": "2026–2027"
+  },
+  "gallery": {
+    "title": "Khoảnh khắc cộng đoàn",
+    "images": [
+      {
+        "id": "gallery-0",
+        "src": "/media/3bf5eb20-981d-4017-8ef4-1e00c1292a74.jpg",
+        "alt": "Ảnh sinh hoạt cộng đoàn 1"
+      },
+      {
+        "id": "gallery-1",
+        "src": "/media/695a583d-38b2-46cc-9d48-53249c68044b.jpg",
+        "alt": "Ảnh sinh hoạt cộng đoàn 2"
+      },
+      {
+        "id": "gallery-2",
+        "src": "/media/fd6357ea-bcf3-43b7-b909-d4dad8e356fb.jpg",
+        "alt": "Ảnh sinh hoạt cộng đoàn 3"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kết nối với cộng đoàn",
+    "description": "Thông tin liên hệ chính thức đang được cập nhật.",
+    "email": null,
+    "phone": null,
+    "address": null,
+    "links": []
+  },
+  "footer": {
+    "text": "Cộng đoàn Dự tu Gò Vấp"
+  },
+  "music": {
+    "title": "Xin giữ con",
+    "src": "/media/6e6329f4-d950-4af9-a25e-1eae8d57d548.mp3",
+    "volume": 0.3,
+    "labels": {
+      "play": "Bật nhạc",
+      "pause": "Tắt nhạc",
+      "volume": "Âm lượng nhạc nền",
+      "empty": "Chưa có file nhạc",
+      "error": "Không phát được file nhạc",
+      "background": "Nhạc nền"
+    }
+  }
+}

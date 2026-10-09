@@ -1,0 +1,13 @@
+{
+  "title": "Xin giữ con",
+  "src": null,
+  "volume": 0.3,
+  "labels": {
+    "play": "Bật nhạc",
+    "pause": "Tắt nhạc",
+    "volume": "Âm lượng nhạc nền",
+    "empty": "Chưa có file nhạc",
+    "error": "Không phát được file nhạc",
+    "background": "Nhạc nền"
+  }
+}

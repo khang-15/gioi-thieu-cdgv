@@ -1,0 +1,23 @@
+{
+  "name": "cong-doan-web",
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node scripts/start.mjs",
+    "start:be": "node backend/src/server.mjs",
+    "start:fe": "node frontend/server.mjs",
+    "content:import": "node backend/src/content-cli.mjs import",
+    "content:export": "node backend/src/content-cli.mjs export",
+    "media:set": "node backend/src/content-cli.mjs media",
+    "test": "node --test backend/src/api.test.mjs frontend/server.test.mjs backend/src/video.test.mjs frontend/teams.test.mjs frontend/music.test.mjs",
+    "groups:import": "node backend/src/content-cli.mjs groups-import",
+    "groups:export": "node backend/src/content-cli.mjs groups-export",
+    "video:set": "node backend/src/content-cli.mjs video",
+    "teams:export": "node backend/src/content-cli.mjs teams-export",
+    "teams:import": "node backend/src/content-cli.mjs teams-import",
+    "music:set": "node backend/src/content-cli.mjs music"
+  }
+}

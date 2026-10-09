@@ -1,0 +1,26 @@
+[
+  {
+    "id": "spiritual",
+    "icon": "prayer",
+    "title": "Thiêng liêng",
+    "description": "Nuôi dưỡng đời sống cầu nguyện và kết hiệp với Chúa."
+  },
+  {
+    "id": "human",
+    "icon": "community",
+    "title": "Nhân bản",
+    "description": "Rèn luyện nhân cách và sống tình huynh đệ."
+  },
+  {
+    "id": "intellectual",
+    "icon": "book",
+    "title": "Tri thức",
+    "description": "Học hỏi, suy tư và mở rộng hiểu biết."
+  },
+  {
+    "id": "pastoral",
+    "icon": "heart",
+    "title": "Mục vụ",
+    "description": "Dấn thân phục vụ và chia sẻ niềm vui Tin Mừng."
+  }
+]

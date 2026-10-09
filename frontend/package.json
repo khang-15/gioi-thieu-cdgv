@@ -1,0 +1,11 @@
+{
+  "name": "cong-doan-frontend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "title": "Các ban, nhóm",
+  "eyebrow": "HIỆP THÔNG & PHỤC VỤ",
+  "description": "Thông tin các ban, nhóm đang được chuẩn bị. Những thẻ dưới đây là vị trí chờ nội dung chính thức của cộng đoàn.",
+  "labels": {
+    "details": "Tìm hiểu ban, nhóm",
+    "pending": "Chờ cập nhật",
+    "mission": "Nhiệm vụ và hoạt động",
+    "schedule": "Lịch sinh hoạt",
+    "leader": "Người phụ trách",
+    "about": "Giới thiệu",
+    "empty": "Thông tin đang được cập nhật.",
+    "image": "Ảnh ban, nhóm",
+    "back": "Các ban, nhóm"
+  },
+  "items": [
+    {
+      "id": "group-0",
+      "title": "Ban, nhóm 01",
+      "tagline": "Chờ tên ban, nhóm chính thức",
+      "description": "Thông tin giới thiệu sẽ được cập nhật sau khi cộng đoàn xác nhận.",
+      "mission": [],
+      "schedule": "",
+      "leader": "",
+      "image": null,
+      "imageAlt": "Ảnh ban, nhóm 1",
+      "isPlaceholder": true
+    },
+    {
+      "id": "group-1",
+      "title": "Ban, nhóm 02",
+      "tagline": "Chờ tên ban, nhóm chính thức",
+      "description": "Thông tin giới thiệu sẽ được cập nhật sau khi cộng đoàn xác nhận.",
+      "mission": [],
+      "schedule": "",
+      "leader": "",
+      "image": null,
+      "imageAlt": "Ảnh ban, nhóm 2",
+      "isPlaceholder": true
+    },
+    {
+      "id": "group-2",
+      "title": "Ban, nhóm 03",
+      "tagline": "Chờ tên ban, nhóm chính thức",
+      "description": "Thông tin giới thiệu sẽ được cập nhật sau khi cộng đoàn xác nhận.",
+      "mission": [],
+      "schedule": "",
+      "leader": "",
+      "image": null,
+      "imageAlt": "Ảnh ban, nhóm 3",
+      "isPlaceholder": true
+    }
+  ]
+}
