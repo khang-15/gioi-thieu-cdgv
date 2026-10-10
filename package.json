@@ -12,7 +12,7 @@
     "content:import": "node backend/src/content-cli.mjs import",
     "content:export": "node backend/src/content-cli.mjs export",
     "media:set": "node backend/src/content-cli.mjs media",
-    "test": "node --test backend/src/api.test.mjs frontend/server.test.mjs backend/src/video.test.mjs frontend/teams.test.mjs frontend/music.test.mjs backend/src/about.test.mjs frontend/journey.test.mjs",
+    "test": "node --test backend/src/api.test.mjs frontend/server.test.mjs backend/src/video.test.mjs frontend/teams.test.mjs frontend/music.test.mjs backend/src/about.test.mjs frontend/journey.test.mjs frontend/activities.test.mjs",
     "groups:import": "node backend/src/content-cli.mjs groups-import",
     "groups:export": "node backend/src/content-cli.mjs groups-export",
     "video:set": "node backend/src/content-cli.mjs video",
