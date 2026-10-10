@@ -1,3 +1,4 @@
+import {createAboutStore} from './about-repository.mjs';
 import { DatabaseSync } from 'node:sqlite';
 import { mkdirSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
@@ -120,5 +121,6 @@ export function createRepository(dbPath=resolve(storage,'community.sqlite')) {
    db.prepare('INSERT INTO content_migrations(name,applied_at) VALUES(?,?)').run(musicMigration,new Date().toISOString());db.exec('COMMIT');
   }catch(error){db.exec('ROLLBACK');db.close();throw error;}
  }
- return {get:()=>JSON.parse(db.prepare('SELECT payload FROM content WHERE id=1').get().payload), save, close:()=>db.close()};
+ const about=createAboutStore(db);
+ return {getAbout:about.get,saveAbout:about.save,get:()=>JSON.parse(db.prepare('SELECT payload FROM content WHERE id=1').get().payload), save, close:()=>db.close()};
 }

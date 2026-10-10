@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "pageTitle": "Giới thiệu Cộng đoàn",
+  "hero": {
+    "eyebrow": "MỘT MÁI NHÀ TRONG HÀNH TRÌNH ƠN GỌI",
+    "title": "Cùng sống.\nCùng lớn lên.\nCùng bước theo Chúa.",
+    "description": "Một lời mời dành cho người trẻ: dừng lại để lắng nghe, mở lòng để được đồng hành, và từng ngày khám phá con đường Chúa đang gọi mình bước tới.",
+    "primaryLabel": "Khám phá cộng đoàn",
+    "secondaryLabel": "Kết nối với chúng tôi",
+    "image": null,
+    "imageAlt": "Cộng đoàn Dự tu Gò Vấp",
+    "imageCaption": "Những khuôn mặt khác nhau. Một hành trình chung.",
+    "orbitWords": [
+      "Lắng nghe",
+      "Đồng hành",
+      "Phân định"
+    ],
+    "images": [
+      {
+        "src": null,
+        "alt": "Khoảnh khắc cộng đoàn 1",
+        "caption": "Ảnh 1"
+      },
+      {
+        "src": null,
+        "alt": "Khoảnh khắc cộng đoàn 2",
+        "caption": "Ảnh 2"
+      },
+      {
+        "src": null,
+        "alt": "Khoảnh khắc cộng đoàn 3",
+        "caption": "Ảnh 3"
+      },
+      {
+        "src": null,
+        "alt": "Khoảnh khắc cộng đoàn 4",
+        "caption": "Ảnh 4"
+      }
+    ]
+  },
+  "identity": {
+    "eyebrow": "CHÚNG TÔI LÀ AI",
+    "title": "Một cộng đoàn,\nnhiều câu chuyện ơn gọi.",
+    "lead": "Mỗi ơn gọi bắt đầu bằng một cuộc gặp gỡ. Mỗi hành trình cần một nơi để được lắng nghe và lớn lên.",
+    "paragraphs": [
+      "Cộng đoàn Dự tu Gò Vấp hướng đến một mái nhà huynh đệ cho người trẻ đang tìm hiểu ơn gọi. Ở đó, mỗi người được mời gọi nhìn lại chính mình, nhận ra những điều đang nuôi dưỡng tâm hồn và học cách đáp lại tiếng Chúa trong đời sống thường ngày.",
+      "Dự tu là một chặng đường tìm hiểu và phân định. Không cần có sẵn mọi câu trả lời; điều cần thiết là một trái tim chân thành, sự sẵn sàng học hỏi và lòng can đảm bước đi cùng người khác."
+    ],
+    "note": "Ơn gọi không chỉ được khám phá trong những quyết định lớn, mà còn qua những lựa chọn nhỏ mỗi ngày."
+  },
+  "formation": {
+    "eyebrow": "BỐN CHIỀU KÍCH ĐÀO LUYỆN",
+    "title": "Lớn lên từ bên trong.\nMở lòng với cuộc đời.",
+    "description": "Một hành trình cân bằng: sâu sắc trong đời sống đức tin, trưởng thành trong nhân cách, rộng mở trong học hỏi và sẵn sàng trong phục vụ.",
+    "items": [
+      {
+        "id": "spiritual",
+        "title": "Thiêng liêng",
+        "icon": "prayer",
+        "subtitle": "Lắng nghe tiếng Chúa",
+        "description": "Dành chỗ cho cầu nguyện, thinh lặng và suy niệm để nhận ra sự hiện diện của Chúa, đồng thời tập sống một tương quan đức tin cá vị và bền bỉ."
+      },
+      {
+        "id": "human",
+        "title": "Nhân bản",
+        "icon": "community",
+        "subtitle": "Trưởng thành trong tương quan",
+        "description": "Học hiểu chính mình, tôn trọng sự khác biệt, biết lắng nghe và chịu trách nhiệm. Tình huynh đệ được vun đắp bằng sự chân thành và những việc nhỏ mỗi ngày."
+      },
+      {
+        "id": "intellectual",
+        "title": "Tri thức",
+        "icon": "book",
+        "subtitle": "Học hỏi với một tâm trí mở",
+        "description": "Nuôi dưỡng tinh thần học tập, suy tư và đối thoại. Kiến thức giúp người trẻ hiểu đức tin sâu hơn và nhìn cuộc sống bằng một tầm nhìn rộng mở."
+      },
+      {
+        "id": "pastoral",
+        "title": "Mục vụ",
+        "icon": "heart",
+        "subtitle": "Đem điều đã nhận ra để phục vụ",
+        "description": "Tập hướng đến tha nhân, quan tâm đến những nhu cầu cụ thể và học phục vụ với sự khiêm tốn. Mỗi cuộc gặp gỡ là cơ hội để chia sẻ niềm vui Tin Mừng."
+      }
+    ]
+  },
+  "life": {
+    "eyebrow": "SỐNG CÙNG NHAU",
+    "title": "Tình huynh đệ\nbắt đầu từ điều giản dị.",
+    "description": "Cộng đoàn được xây dựng từ sự hiện diện dành cho nhau: một lời hỏi thăm, một lần kiên nhẫn lắng nghe, một công việc được cùng nhau hoàn thành.",
+    "items": [
+      {
+        "title": "Lắng nghe",
+        "description": "Để mỗi người có thể chia sẻ câu chuyện của mình và được đón nhận bằng sự tôn trọng."
+      },
+      {
+        "title": "Đồng hành",
+        "description": "Khích lệ nhau học hỏi, nhận ra những giới hạn và kiên trì với những bước tiến nhỏ."
+      },
+      {
+        "title": "Phục vụ",
+        "description": "Sẵn sàng góp phần vào việc chung, sống có trách nhiệm và quan tâm đến người bên cạnh."
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "NHỮNG KHOẢNH KHẮC CHUNG",
+    "title": "Một mái nhà được dệt\ntừ những cuộc gặp gỡ.",
+    "description": "Những hình ảnh sinh hoạt đã được cập nhật trên trang chủ cũng xuất hiện ở đây, để bạn nhìn gần hơn vào đời sống cộng đoàn."
+  },
+  "invitation": {
+    "eyebrow": "HÃY BẮT ĐẦU BẰNG MỘT CUỘC GẶP",
+    "title": "Bạn đang tìm kiếm\ncon đường của mình?",
+    "description": "Bạn có thể bắt đầu bằng việc tìm hiểu, đặt câu hỏi và chia sẻ điều mình đang thao thức. Cộng đoàn mong được cùng bạn lắng nghe và bước đi.",
+    "contactLabel": "Thông tin liên hệ",
+    "journeyLabel": "Hành trình ơn gọi"
+  },
+  "labels": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "identity": "Cộng đoàn",
+    "formation": "Đào luyện",
+    "life": "Huynh đệ",
+    "gallery": "Khoảnh khắc",
+    "contact": "Liên hệ",
+    "menu": "Mở menu",
+    "backTop": "Về đầu trang",
+    "scroll": "Cuộn để khám phá",
+    "imageEmpty": "Khung ảnh — sẽ được cập nhật",
+    "retry": "Thử lại",
+    "error": "Chưa tải được trang giới thiệu. Vui lòng thử lại.",
+    "skip": "Đến nội dung chính"
+  }
+}

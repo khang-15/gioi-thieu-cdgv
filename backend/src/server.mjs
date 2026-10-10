@@ -15,6 +15,7 @@ export function createApp(repository,mediaDirectory=resolve(storage,'media')) {
    const url=new URL(req.url,'http://localhost');
    if(!['GET','HEAD'].includes(req.method)) return json(405,{error:'Method not allowed'});
    if(url.pathname==='/health') return json(200,{status:'ok'});
+   if(url.pathname==='/api/about') return json(200,repository.getAbout());
    if(url.pathname==='/api/homepage') return json(200,repository.get());
    if(url.pathname.startsWith('/media/')) {
     const name=url.pathname.slice(7);

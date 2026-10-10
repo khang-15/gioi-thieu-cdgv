@@ -12,12 +12,15 @@
     "content:import": "node backend/src/content-cli.mjs import",
     "content:export": "node backend/src/content-cli.mjs export",
     "media:set": "node backend/src/content-cli.mjs media",
-    "test": "node --test backend/src/api.test.mjs frontend/server.test.mjs backend/src/video.test.mjs frontend/teams.test.mjs frontend/music.test.mjs",
+    "test": "node --test backend/src/api.test.mjs frontend/server.test.mjs backend/src/video.test.mjs frontend/teams.test.mjs frontend/music.test.mjs backend/src/about.test.mjs",
     "groups:import": "node backend/src/content-cli.mjs groups-import",
     "groups:export": "node backend/src/content-cli.mjs groups-export",
     "video:set": "node backend/src/content-cli.mjs video",
     "teams:export": "node backend/src/content-cli.mjs teams-export",
     "teams:import": "node backend/src/content-cli.mjs teams-import",
-    "music:set": "node backend/src/content-cli.mjs music"
+    "music:set": "node backend/src/content-cli.mjs music",
+    "about:export": "node backend/src/content-cli.mjs about-export",
+    "about:import": "node backend/src/content-cli.mjs about-import",
+    "about:set": "node backend/src/content-cli.mjs about-set"
   }
 }
