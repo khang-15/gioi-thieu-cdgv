@@ -1,0 +1,2 @@
+export function safeDriveUrl(value){if(typeof value!=='string'||!value.trim())return null;try{const u=new URL(value);return u.protocol==='https:'&&u.hostname==='drive.google.com'&&!u.username&&!u.password&&!u.port&&(/^\/drive\/(?:u\/\d+\/)?folders\/[a-zA-Z0-9_-]+\/?$/.test(u.pathname)||/^\/file\/d\/[a-zA-Z0-9_-]+(?:\/(?:view|preview))?\/?$/.test(u.pathname)||u.pathname==='/open'&&/^[a-zA-Z0-9_-]+$/.test(u.searchParams.get('id')||''))?u.href:null;}catch{return null;}}
+export function filterAlbums(albums,type='all'){return albums.filter(a=>type==='all'||a.type===type);}
