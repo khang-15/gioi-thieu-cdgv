@@ -1,6 +1,7 @@
 import {cp, mkdir, readFile, readdir, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {renderHomepage} from '../frontend/src/home-view.js';
+import {renderNews} from '../frontend/src/news-view.js';
 import {renderActivities} from '../frontend/src/activities-view.js';
 import {renderAbout} from '../frontend/src/about-view.js';
 import assert from 'node:assert/strict';
@@ -57,6 +58,14 @@ async function adapt(directory) {
  }
 }
 await adapt(resolve(out,'src'));
+let newsPage=await readFile('frontend/news.html','utf8');
+newsPage=newsPage.replace('<div id="news-app"></div>',()=>'<div id="news-app">'+renderNews()+'</div>');
+newsPage=prefix(newsPage).replace('<head>','<head><base href="'+base+'">');
+assert(newsPage.includes(base+'src/news.js'));
+assert(newsPage.includes('id="thong-bao"'));
+assert(!newsPage.includes('src="/src/'));
+await mkdir(resolve(out,'tin-tuc'),{recursive:true});
+await writeFile(resolve(out,'tin-tuc/index.html'),newsPage);
 let activitiesPage=await readFile('frontend/activities.html','utf8');
 activitiesPage=activitiesPage.replace('<div id="activities-app"></div>',()=>'<div id="activities-app">'+renderActivities()+'</div>');
 activitiesPage=prefix(activitiesPage).replace('<head>','<head><base href="'+base+'">');
