@@ -1,6 +1,7 @@
 import {cp, mkdir, readFile, readdir, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {renderHomepage} from '../frontend/src/home-view.js';
+import {renderLibrary} from '../frontend/src/library-view.js';
 import {renderNews} from '../frontend/src/news-view.js';
 import {renderActivities} from '../frontend/src/activities-view.js';
 import {renderAbout} from '../frontend/src/about-view.js';
@@ -58,6 +59,14 @@ async function adapt(directory) {
  }
 }
 await adapt(resolve(out,'src'));
+let libraryPage=await readFile('frontend/library.html','utf8');
+libraryPage=libraryPage.replace('<div id="library-app"></div>',()=>'<div id="library-app">'+renderLibrary()+'</div>');
+libraryPage=prefix(libraryPage).replace('<head>','<head><base href="'+base+'">');
+assert(libraryPage.includes(base+'src/library.js'));
+assert(libraryPage.includes('id="albums"'));
+assert(!libraryPage.includes('src="/src/'));
+await mkdir(resolve(out,'thu-vien'),{recursive:true});
+await writeFile(resolve(out,'thu-vien/index.html'),libraryPage);
 let newsPage=await readFile('frontend/news.html','utf8');
 newsPage=newsPage.replace('<div id="news-app"></div>',()=>'<div id="news-app">'+renderNews()+'</div>');
 newsPage=prefix(newsPage).replace('<head>','<head><base href="'+base+'">');

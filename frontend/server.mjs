@@ -1,4 +1,5 @@
 import {renderHomepage} from './src/home-view.js';
+import {renderLibrary} from './src/library-view.js';
 import {renderNews} from './src/news-view.js';
 import {renderActivities} from './src/activities-view.js';
 import {renderAbout} from './src/about-view.js';
@@ -14,13 +15,13 @@ const api=process.env.API_URL || `http://127.0.0.1:${process.env.BE_PORT || 4000
 const types={'.woff':'font/woff','.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml'};
 export function resolvePublicFile(pathname, base=root, paths=pathTools) {
   let name;
-  try { name=pathname==='/'?'index.html':['/gioi-thieu','/gioi-thieu/'].includes(pathname)?'about.html':['/hanh-trinh-on-goi','/hanh-trinh-on-goi/'].includes(pathname)?'journey.html':['/su-kien','/su-kien/'].includes(pathname)?'activities.html':['/tin-tuc','/tin-tuc/'].includes(pathname)?'news.html':decodeURIComponent(pathname).slice(1); }
+  try { name=pathname==='/'?'index.html':['/gioi-thieu','/gioi-thieu/'].includes(pathname)?'about.html':['/hanh-trinh-on-goi','/hanh-trinh-on-goi/'].includes(pathname)?'journey.html':['/su-kien','/su-kien/'].includes(pathname)?'activities.html':['/tin-tuc','/tin-tuc/'].includes(pathname)?'news.html':['/thu-vien','/thu-vien/'].includes(pathname)?'library.html':decodeURIComponent(pathname).slice(1); }
   catch { return null; }
   if(name.includes('\\') || name.includes('\0')) return null;
   const target=paths.resolve(base,name);
   const relative=paths.relative(base,target);
   if(!relative || paths.isAbsolute(relative) || relative==='..' || relative.startsWith('..'+paths.sep)) return null;
-  if(!relative.startsWith('src'+paths.sep) && !['index.html','about.html','journey.html','activities.html','news.html','favicon.svg'].includes(relative)) return null;
+  if(!relative.startsWith('src'+paths.sep) && !['index.html','about.html','journey.html','activities.html','news.html','library.html','favicon.svg'].includes(relative)) return null;
   return target;
 }
 export function createFrontendServer(apiUrl=api) { return createServer(async(req,res)=>{
@@ -41,6 +42,12 @@ export function createFrontendServer(apiUrl=api) { return createServer(async(req
   }
   const path=resolvePublicFile(url.pathname);
   if(!path){res.writeHead(404);return res.end();}
+  if(path===resolve(root,'library.html')){
+   let html=await readFile(path,'utf8');
+   html=html.replace('<div id="library-app"></div>',()=>'<div id="library-app">'+renderLibrary()+'</div>');
+   res.writeHead(200,{'Content-Type':'text/html; charset=utf-8','Cache-Control':'no-store'});
+   return res.end(req.method==='HEAD'?undefined:html);
+  }
   if(path===resolve(root,'news.html')){
    let html=await readFile(path,'utf8');
    html=html.replace('<div id="news-app"></div>',()=>'<div id="news-app">'+renderNews()+'</div>');
