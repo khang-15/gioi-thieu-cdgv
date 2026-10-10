@@ -1,6 +1,7 @@
 import {cp, mkdir, readFile, readdir, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {renderHomepage} from '../frontend/src/home-view.js';
+import {renderActivities} from '../frontend/src/activities-view.js';
 import {renderAbout} from '../frontend/src/about-view.js';
 import assert from 'node:assert/strict';
 
@@ -56,6 +57,13 @@ async function adapt(directory) {
  }
 }
 await adapt(resolve(out,'src'));
+let activitiesPage=await readFile('frontend/activities.html','utf8');
+activitiesPage=activitiesPage.replace('<div id="activities-app"></div>',()=>'<div id="activities-app">'+renderActivities()+'</div>');
+activitiesPage=prefix(activitiesPage).replace('<head>','<head><base href="'+base+'">');
+assert(activitiesPage.includes(base+'src/activities.js'));
+assert(activitiesPage.includes('id="cau-chuyen"'));
+await mkdir(resolve(out,'su-kien'),{recursive:true});
+await writeFile(resolve(out,'su-kien/index.html'),activitiesPage);
 const journeyPage=prefix(await readFile('frontend/journey.html','utf8')).replace('<head>','<head><base href="'+base+'">');
 assert(journeyPage.includes('id="hanh-trinh"'));
 assert(journeyPage.includes(base+'src/journey.js'));
