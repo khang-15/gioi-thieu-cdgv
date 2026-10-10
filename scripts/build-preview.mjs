@@ -56,6 +56,12 @@ async function adapt(directory) {
  }
 }
 await adapt(resolve(out,'src'));
+const journeyPage=prefix(await readFile('frontend/journey.html','utf8')).replace('<head>','<head><base href="'+base+'">');
+assert(journeyPage.includes('id="hanh-trinh"'));
+assert(journeyPage.includes(base+'src/journey.js'));
+assert(!journeyPage.includes('src="/src/'));
+await mkdir(resolve(out,'hanh-trinh-on-goi'),{recursive:true});
+await writeFile(resolve(out,'hanh-trinh-on-goi/index.html'),journeyPage);
 await mkdir(resolve(out,'data'),{recursive:true});
 await writeFile(resolve(out,'data/homepage.json'),JSON.stringify(home));
 await writeFile(resolve(out,'data/about.json'),JSON.stringify(about));

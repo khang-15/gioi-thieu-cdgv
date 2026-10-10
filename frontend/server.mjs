@@ -12,13 +12,13 @@ const api=process.env.API_URL || `http://127.0.0.1:${process.env.BE_PORT || 4000
 const types={'.woff':'font/woff','.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml'};
 export function resolvePublicFile(pathname, base=root, paths=pathTools) {
   let name;
-  try { name=pathname==='/'?'index.html':['/gioi-thieu','/gioi-thieu/'].includes(pathname)?'about.html':decodeURIComponent(pathname).slice(1); }
+  try { name=pathname==='/'?'index.html':['/gioi-thieu','/gioi-thieu/'].includes(pathname)?'about.html':['/hanh-trinh-on-goi','/hanh-trinh-on-goi/'].includes(pathname)?'journey.html':decodeURIComponent(pathname).slice(1); }
   catch { return null; }
   if(name.includes('\\') || name.includes('\0')) return null;
   const target=paths.resolve(base,name);
   const relative=paths.relative(base,target);
   if(!relative || paths.isAbsolute(relative) || relative==='..' || relative.startsWith('..'+paths.sep)) return null;
-  if(!relative.startsWith('src'+paths.sep) && !['index.html','about.html','favicon.svg'].includes(relative)) return null;
+  if(!relative.startsWith('src'+paths.sep) && !['index.html','about.html','journey.html','favicon.svg'].includes(relative)) return null;
   return target;
 }
 export function createFrontendServer(apiUrl=api) { return createServer(async(req,res)=>{
